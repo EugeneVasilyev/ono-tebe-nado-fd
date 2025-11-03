@@ -251,11 +251,14 @@ body {
 
 .footer {
     padding: 185px 50px 0;
+    height: 365px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-
+.footer__address {
+    list-style: none;
+}
 
 .footer__address-item a {
     text-decoration: none;
